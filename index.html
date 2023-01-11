@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="js/scripts.js"></script>
-  <title>A dating site</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>A dating site</title>
 </head>
+
 <body>
+    <div>
+        <h1>Welcome</h1>
+        <p>Welcome to the Dating Quiz</p>
+        <p>Enter your age and height in the form below and we'll show you who you will match with.</p>
 
+        <form id="userInfo">
+            <label for="age">Age</label>
+            <input id="age" type="text" name="age">
+            <label for="height">Height in inches</label>
+            <input id="height" type="text" name="height">
+            <button type="submit">Submit</button>
+        </form>
 
-
-
+        <div id="sarah" class="hidden">
+            <h1>You should be dating Sarah</h1>
+            <p>click here to see her profile.</p> 
+          </div>
+          <div id="ashley" class="hidden">
+            <h1>you should be dating ashley</h1>
+            <p>click here to see her profile</p> 
+          </div>
+          <div id="emily" class="hidden">
+            <h1>you should be dating emily</h1>
+            <p>click here to see her profile</p> 
+          </div>
+          <div id="sorry" class="hidden">
+            <h1>Sorry</h1>
+            <p>you will never find love</p> 
+          </div>
+    
+    
+    
+    
+    
+    
+    </div>
 </body>
+
 </html>
