@@ -16,3 +16,15 @@ window.onload = function() {
     };
 };
 
+if (age >= 50 && height >= 150){
+    document.getElementById("sarah").removeAttribute("class");
+
+} else if (age >= 35 && height >= 95){
+    document.getElementById("ashley").removeAttribute("class");
+
+} else if (age >= 20 && height >= 50){
+    document.getElementById("emily").removeAttribute("class");
+
+} else{
+    document.getElementById("sorry").removeAttribute("class");
+}
